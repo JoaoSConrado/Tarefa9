@@ -1,0 +1,65 @@
+<html>
+
+    <head>
+        
+        <title> EXERCICIO 2</title>
+
+        <script>
+            
+            // 2. Faça um algoritmo para ler 12 números e armazenar em dois arrays: um com os números acima de 50. Outro com números abaixo de 50.
+
+            var array1 = [];
+            var array2 = [];
+            var array3 = [];
+        
+            for (let i = 0; i < 12; i++) {
+            var numeros = prompt("Escreva um numero");
+            if (numeros > 50) {
+            array1.push(numeros);    
+            } 
+            if (numeros < 50) {
+            array2.push(numeros); 
+            }
+            if (numeros == 50) {
+            array3.push(numeros); 
+            }
+        }
+
+       
+        document.write("Numeros digitados acima de 50: " + array1 + "!!!");
+        document.write("<br/></br>Numeros digitados abaixo de 50: " + array2 + "!!!");
+        document.write("<br/></br>Numeros digitados = 50: " + array3 + "!!!");
+        
+        
+       
+
+
+
+        </script>
+
+    </head>
+
+<body>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
